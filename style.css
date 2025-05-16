@@ -29,7 +29,7 @@ color: plum;
 margin-top: 350px;
 }
 
-a{
+.one a{
 color: indigo;
 background-color: white;
 font-size: 25px;
@@ -40,3 +40,11 @@ a:hover{
 text-decoration: underline;
 }
 
+.arrow span{
+padding: 10px;
+background-color: white;
+border-radius: 50px;
+position: absolute;
+bottom: 50px;
+right: 70px;
+}
