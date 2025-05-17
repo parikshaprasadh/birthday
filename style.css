@@ -42,7 +42,7 @@ text-decoration: underline;
 
 .arrow span{
 padding: 10px;
-background-color: white;
+background-color: gainsboro;
 border-radius: 50px;
 position: absolute;
 bottom: 50px;
@@ -54,4 +54,47 @@ color: black;
 position: absolute;
 bottom: 60px;
 left: 610px;
+}
+
+.img-container{
+position: relative;
+width: 700px;
+height: 700px;
+}
+
+.fade{
+align: center;
+object-fit: cover;
+opacity: 0;
+transition: opacity: 10s ease;
+pointer-events: none;
+}
+.fade.visible{
+opacity: 1;
+pointer-events: auto;
+}
+#img1{
+position: absolute;
+top: 100px;
+left: 705px;
+transform: scale(2.5);
+}
+#img2{
+position: absolute;
+top: 0px;
+left: 370px;
+transform: scale(0.3);
+}
+
+button{
+position: absolute;
+top: 500px;
+left: 610px;
+font-family: "Poetsen One", sans-serif;
+font-style: normal;
+font-size: 2rem;
+padding: 10px;
+background-color: rebeccapurple;
+color: white;
+border-radius: 20px;
 }
