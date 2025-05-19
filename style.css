@@ -98,3 +98,16 @@ background-color: rebeccapurple;
 color: white;
 border-radius: 20px;
 }
+
+.i1{
+position: absolute;
+right: 80px;
+top: 150px;
+transform: scale(1.5);
+}
+.i2{
+position: absolute;
+left: 80px;
+top: 150px;
+transform: scale(1.5);
+}
