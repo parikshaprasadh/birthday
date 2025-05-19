@@ -6,7 +6,7 @@ img1.classList.remove("visible");
 img2.classList.add("visible");
 }
 
-function switch(){
+function open(){
 const img3 = document.getElementById("img3");
 const img4 = document.getElementById("img4");
 
