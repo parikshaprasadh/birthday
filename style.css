@@ -116,6 +116,21 @@ top: 150px;
 transform: scale(1.5);
 }
 
+#img3{
+position: absolute;
+top: 200px;
+left: 570px;
+transform: scale(0.8);
+cursor: pointer;
+}
+
+#img4{
+position: absolute;
+top: 200px;
+left: 570px;
+transform: scale(0.8);
+}
+
 #fireworks{
 position: absolute;
 transform: scale(3.5);
