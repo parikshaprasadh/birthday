@@ -96,8 +96,11 @@ font-size: 2rem;
 padding: 10px;
 background-color: rebeccapurple;
 color: white;
-cursor: pointer;
 border-radius: 20px;
+}
+
+button:hover {
+cursor: pointer;
 }
 
 .i1{
@@ -112,16 +115,18 @@ left: 80px;
 top: 150px;
 transform: scale(1.5);
 }
-#img3{
+
+#fireworks{
 position: absolute;
-top: 200px;
-left: 570px;
-transform: scale(0.8);
-cursor: pointer;
+transform: scale(3.5);
+top: 250px;
+left: 500px;
+z-index: 5px;
 }
-#img4{
+
+.fire h1{
+z-index: 10px;
 position: absolute;
 top: 200px;
-left: 570px;
-transform: scale(0.8);
+color: white;
 }
